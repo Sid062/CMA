@@ -1,0 +1,105 @@
+Homepage.html
+<html>
+<head><title>GFGC carstreet</title></head>
+<body bgcolor="skyblue">
+<center><header><h6 style="color:blue">Aflitated to Mangalore university</h6></header></center>
+<figure><figcaption align="center"><img src="F:\Drive
+Info\OneDrive\Pictures\Seal_of_Karnataka.svg.png"width="100" height="100"></figure>
+<center><h2 style="color:red"><strong>DR.P.DAYANANDA PAI-P.SATHISHA PAI
+</h2></strong><br>GOVERNMENT FIRST GRADE COLLEGE, MANGALORE
+<h3>Carstreet Mangaluru-575001</h3></center>
+<article>
+<center>
+<nav>
+<table>
+<tr>
+<td><a href="F:\CMA programs\Program1\Course.html">Course</a>|</td>
+<td><a href="F:\CMA programs\Program1\Facilities.html">Facility</a>|</td>
+<td><a href="F:\CMA programs\Program1\Contact.html">contact us</a>|</td>
+<tr>
+</table>
+</nav>
+</center>
+</article>
+<aside>
+<section>
+<center><img src="F:\Drive Info\OneDrive\Pictures\GFGCc.jpeg" width="400" height="200">
+</section>
+</aside>
+<footer align="center"><p><a href="http://dce.kar.nic.in ">Department of Collegeiate education |
+dce.kar.nic.in</a></p>
+</footer>
+</body>
+</html>
+
+Contact.html
+<html>
+<head><title>contact</title></head>
+<body bgcolor="grey">
+<table style="width:100%">
+<colgroup>
+<col span="3" style="background-color:pink">
+</colgroup>
+<tr>
+<th><font color="blue">ADDRESS</font></th>
+<th><font color="blue">PHONE NUMBER</font></th>
+<th><font color="blue">EMAIL</font></th>
+</tr>
+<tr>
+<td width="40%">DR.P.DAYANANDA PAI-P.SATHISHA PAI<br>GOVERNMENT FIRST GRADE
+COLLEGE<br>
+CARSTREET,MANGALORE.<br>
+PIN-575001<br>
+District-DAKSHINA KANNADA<br>
+STATE-KARNATAKA<br>
+Google map:<a href="https://maps.app.goo.gl/fDW5YqHKGZKMmceu9">Location</a>
+</td>
+<td>Phone:0824-2494109 / 2491073<br>
+Mobile No:+91 9874561220
+</td>
+<td>Email:gfgcmangalorecarstreet@rocketmail.com</td>
+</tr>
+</table>
+<br>
+<a href="D:\homepage.html">HOMEPAGE</a>
+</body>
+</html>
+
+Facility.html
+<html>
+<head><title>Facilities</title></head>
+<body bgcolor="lightgreen">
+<h2><font color="Blue">Facilities</font></h2>
+<hr>
+<p>The college has 1.67 acres of prime land in the heart of the city, on which the following facilities are
+available.</p>
+<ul>
+<li>Well furnished Office with the required facilities</li>
+<li>CCTV Surveillance</li>
+<li>Gym facility</li>
+<li>Student Help Desk</li>
+<li>Computer lab with 60 computers with high speed internet connection.</li>
+<li>Parking area.</li>
+</ul>
+<br>
+<a href="D:\homepage.html">HOMEPAGE</a>
+</body>
+</html>
+
+Course.html
+<html>
+<head><title>course</title></head>
+<body bgcolor="yellow">
+<h1>Courses</h1>
+<h3>PG and UG Course</h3>
+<ol>
+<li>MA</li>
+<li>MCOM</li>
+<li>MSW</li>
+<li>BCA</li>
+<li>BCOM</li>
+</ol>
+<br>
+<a href="D:\'\homepage.html">HOMEPAGE</a>
+</body>
+</html>

@@ -1,0 +1,73 @@
+
+registration form
+<!DOCTYPE html>
+<html>
+<style>
+form
+{
+margin:0px auto;
+width:fit-content;
+font-family:sans-serif;
+border:1px grey;
+border-radius:10px;
+box-shadow:rgba(0,0,0,0.8)0 0 10px;
+background-color:silver;
+}
+.button:hover
+{
+background-color:green;
+color:black;
+cursor: pointer;
+}
+</style>
+<body>
+<h1 style="text-align:center;color:green">REGISTRATION FORM</h1>
+<form action= "Outputpage.html" method="post">
+<br>
+Name:<br>
+<input type="text" size="65" name="Name" required placeholder="Enter your name"/><br><br>
+Password:<br>
+<input type="password" size="65" id="password"name="Password" required placeholder="Enter
+your password"/><br><br>
+Confirm password:<br>
+<input type="password" size="65" id="confirm_password" name="Confirm_Password" required
+placeholder="Confirm password"/><br><br>
+Contact number:<br>
+<input type="tel" size="65" name="Contact number" pattern="[0-9]{10}" required
+placeholder="Enter a number"/><br><br>
+Skill range:<br>
+<input type="range" name="Skil range" width="100px" required/><br><br>
+E-mail address:<br>
+<input type="email" name="E-mail" required placeholder="Enter your E-mail"/><br><br>
+Profile url:<br>
+<input type="url" size="65" name="Profile" required placeholder="Enter a url"/><br><br>
+Resume:<br>
+<input type="file" id="Resume"name="resume" required/><br>
+<center>
+<br>
+<input type="submit" class="button" value="Submit" name="Submit" style="backgroundcolor:
+green;color:white" />
+<input type="reset" class="button" value="Reset" name="Reset" style="background-color:
+green;color:white" />
+<br>
+</center><br>
+</form>
+<script>
+varpassword=document.getElementById("password"),confirm_password=document.getElem
+entById("confirm_password");
+function validatePassword()
+{
+if(password.value!=confirm_password.value)
+{
+confirm_password.setCustomValidity("Password dont match");
+}
+else
+{
+confirm_password.setCustomValidity("");
+}
+}
+password.onchange=validatePassword;
+confirm_password.onkeyup=validatePassword;
+</script>
+</body>
+</html>

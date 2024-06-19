@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Table</title>
+    <link rel="stylesheet" href="t.css">
+</head>
+<body>
+    <header>
+        <h1>COLLEGE TIME TABLE</h1>
+    </header>
+    <table>
+        <th>
+            <tr>
+                <td id="sub1"> </td>
+                <td id="sub">8:30-9:30</td>
+                <td id="sub">9:30-10:30</td>
+                <td id="sub">10:30-11:30</td>
+                <td id="sub">11:30-12:30</td>
+                <td id="sub">12:30-2:00</td>
+                <td id="sub">2:00-3:00</td>
+                <td id="sub">3:00-4:00</td>
+                <td id="sub">4:00-5:00</td>
+            </tr>
+        </th>
+
+        <tr>
+            <td id="sub"> MONDAY </td>
+            <td id="blank">---</td>
+            <td id="box1">SUB 1</td>
+            <td id="box2">SUB 2</td>
+            <td id="box3">SUB 3</td>
+            <td rowspan="6">L<br>U<br>N<br>C<br>H</td>
+            <td id="box4">SUB 4</td>
+            <td id="box5">SUB 5</td>
+            <td id="s"><b>COUNSELLING CLASS</b></td>
+        </tr>
+
+        <tr>
+            <td id="sub"> TUESDAY </td>
+            <td id="box1">SUB 1</td>
+            <td id="box2">SUB 2</td>
+            <td id="box3">SUB 3</td>
+            <td id="blank">---</td>
+            <td id="box2">SUB 2</td>
+            <td id="box2">SUB 2</td>
+            <td id="sub2">LIBRARY</td>
+        </tr>
+
+        <tr>
+            <td id="sub"> WEDNESDAY </td>
+            <td id="box1">SUB 1</td>
+            <td id="box2">SUB 2</td>
+            <td id="box5">SWA</td>
+            <td id="blank">---</td>
+            <td colspan="3" id="sub3"><b>LAB</b></td>
+        </tr>
+
+        <tr>
+            <td id="sub"> THURSDAY </td>
+            <td id="box1">SUB 1</td>
+            <td id="box2">SUB 2</td>
+            <td id="box3">SUB 3</td>
+            <td id="blank">---</td>
+            <td id="box2">SUB 2</td>
+            <td id="box2">SUB 2</td>
+            <td id="sub2">LIBRARY</td>
+        </tr>
+
+        <tr>
+            <td id="sub"> FRIDAY </td>
+            <td id="box1">SUB 1</td>
+            <td id="box2">SUB 2</td>
+            <td id="box3">SUB 3</td>
+            <td id="blank">---</td>
+            <td id="box4">SUB 4</td>
+            <td id="box5">SUB 5</td>
+            <td id="sub2">LIBRARY</td>
+        </tr>
+
+        <tr>
+            <td id="sub"> FRIDAY </td>
+            <td id="box1">SUB 1</td>
+            <td colspan="3" id="seminar"><b>SEMINAR</b></td>
+            <td id="box4">SUB 4</td>
+            <td id="box5">SUB 5</td>
+            <td id="sub2">LIBRARY</td>
+        </tr>
+
+    </table>
+    </body>
+</html>
+
+time.csss
+
+body
+{
+    background-color: white;
+    mix-blend-mode: darken;
+}
+header h1
+{
+    text-align: center;
+    margin-top: 10%;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+table
+{
+
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-bottom: 2%;
+    height: 300px;
+    width: max-content;
+    border: 2px solid black;
+}
+td
+{
+    border: 2px solid black;
+    background-color: white;
+    text-align: center;
+}
+#blank
+{
+    background-color: white;
+    color: black;
+}
+#seminar
+{
+  font-family: sans-serif;
+  font-weight: 800;
+  color: black;
+  background-color: white;
+  text-transform: uppercase;  
+}
+#s
+{
+    
+    font-family: sans-serif;
+    font-weight: 800;
+    color: black;
+    background-color: white;
+    text-transform: uppercase;  
+      
+}
+#sub
+{
+    font-family: sans-serif;
+    color: black;
+    background-color: white;
+}
+#sub1
+{
+    background-color: white;
+}
+#sub2
+{
+    text-transform: uppercase;
+    background-color: white;
+    color: black;
+    
+}
+#sub3
+{
+    background-color: white;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 800;
+    
+}
+#box1
+{
+    font-weight: 800;
+    color: rgb(153, 153, 243);
+    font-family: sans-serif;
+}
+#box2
+{
+    font-weight: 800;
+    color: rgb(255, 178, 34);
+    font-family: sans-serif;
+}
+#box3
+{
+    font-weight: 800;
+    color: rgb(204, 0, 211);
+    font-family: sans-serif;
+}
+#box4
+{
+    font-weight: 800;
+    color: green;
+    font-family: sans-serif;
+}
+#box5
+{
+    font-weight: 800;
+    color: rgb(255, 7, 7);
+    font-family: sans-serif;
+}
+#box6
+{
+    font-weight: 800;
+    color: hotpink;
+    font-family: sans-serif;
+}
+#box7
+{
+    font-weight: 800;
+    color: blue;
+    font-family: sans-serif;
+}

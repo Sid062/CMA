@@ -1,0 +1,78 @@
+solar system
+<!DOCTYPE html>
+<html>
+<head>
+<title>Solar System</title>
+<style>
+canvas
+{
+    border:2px solid black;
+    background-color:navy;
+}
+</style>
+</head>
+<body>
+<canvas id="canvas" width="600" height="600">
+</canvas>
+<script>
+const canvas=document.getElementById('canvas');
+const ctx=canvas.getContext('2d');
+//Define the sun,earth and moon
+const sun={
+    x:canvas.width/2,
+    y:canvas.height/2,
+    radius:50,
+    color:'yellow'
+};
+const earth={
+    x:sun.x+200,
+    y:sun.y,
+    radius:20,
+    color:'green',
+    angle:0,
+    speed:0.0007
+};
+const moon={
+    x:earth.x+50,
+    y:earth.y,
+    radius:10,
+    color:'silver',
+    angle:0,
+    speed:0.0045
+};
+function draw()
+{
+    ctx.clearRect(0,0,canvas.width,canvas.height);
+    ctx.beginPath();
+    ctx.arc(sun.x,sun.y,203,0,Math.PI*2,false);
+    ctx.stroke();
+    //Draw the sun
+    ctx.beginPath();
+    ctx.arc(sun.x,sun.y,30,0,Math.PI*2);
+    ctx.fillStyle=sun.color;
+    ctx.fill();
+    ctx.beginPath();
+    ctx.arc(earth.x,earth.y,earth.radius,0,Math.PI*2);
+    ctx.fillStyle=earth.color;
+    ctx.fill();
+    //Draw the moon
+    ctx.beginPath();
+    ctx.arc(moon.x,moon.y,moon.radius,0,Math.PI*2);
+    ctx.fillStyle=moon.color;
+    ctx.fill();
+    //Update the earth's position
+    earth.x=sun.x+200*Math.cos(earth.angle);
+    earth.y=sun.y+200*Math.sin(earth.angle);
+    earth.angle+=earth.speed;
+    //Update the moon's position
+    moon.x=earth.x+50*Math.cos(moon.angle);
+    moon.y=earth.y+50*Math.sin(moon.angle);
+    moon.angle+=moon.speed;
+    //Request another animation frame
+    requestAnimationFrame(draw);
+}
+//Start the animation loop
+draw();
+</script>
+</body>
+</html>
